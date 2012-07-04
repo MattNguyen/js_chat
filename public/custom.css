@@ -1,0 +1,70 @@
+@import "compass/css3";
+
+header {
+  position: absolute;
+  background-color: #333;
+  width: 100%;
+  height: 50px;
+  -webkit-box-shadow: #888 2px 2px 5px;
+  -moz-box-shadow: #888 2px 2px 5px;
+  box-shadow: #888 2px 2px 5px;
+  border-radius: 2px;
+/*  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #cccccc), color-stop(100%, #aaaaaa));*/
+  background-image: -webkit-linear-gradient(#222, #444, #777);
+/*  background-image: -moz-linear-gradient(#ffffff, #cccccc, #aaaaaa);
+  background-image: -o-linear-gradient(#ffffff, #cccccc, #aaaaaa);*/
+/*  background-image: linear-gradient(#ffffff, #cccccc, #aaaaaa);*/
+*/}
+
+.title {
+  font-family: 'PacificoRegular';
+  font-size: 35px;
+  color: #ddd;
+  margin-top: 4px;
+}
+
+textarea {
+  border-radius: 6px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+#input_message {
+  width: 100%;
+  height: 25px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 75px;
+}
+
+ol {
+  position: relative;
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+/*Mixins*/
+@font-face {
+    font-family: 'PacificoRegular';
+    src: url('fonts/Pacifico-webfont.eot');
+    src: url('fonts/Pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Pacifico-webfont.woff') format('woff'),
+         url('fonts/Pacifico-webfont.ttf') format('truetype'),
+         url('fonts/Pacifico-webfont.svg#PacificoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
