@@ -1,4 +1,4 @@
-$:.unshift File.expand_path("../", __FILE__)
+web: bundle exec ruby web.rb -p $PORT
 
 require './application.rb'
 run Sinatra::Application
