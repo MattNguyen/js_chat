@@ -1,5 +1,7 @@
+require 'rubygems'
+require 'bundler'
+Bundler.require
 require 'sinatra'
-require 'shotgun'
 
 get '/' do
   erb :home
